@@ -1,0 +1,15 @@
+[diveengine2d.Entity]
+$GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
+$name = "Player"
+
+Component spacewars.PlayerController
+$name = "player controller"
+$message = "hello from the script!"
+End Component
+
+Component diveengine.RectRenderer
+$name = "render!"
+$width = 16F
+$height = 16F
+$color = #776611
+End Component
