@@ -7,7 +7,7 @@ $name = "player controller"
 $message = "hello from the script!"
 End Component
 
-Component diveengine.RectRenderer
+Component RectRenderer
 $name = "render!"
 $width = 16F
 $height = 16F
