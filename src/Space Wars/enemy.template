@@ -3,9 +3,7 @@ $GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
 $name = "Player"
 
 Component spacewars.PlayerController
-$name = "player controller"
-$message = "hello from the script!"
-$speed = 1f
+$name = "AI Controller"
 End Component
 
 Component RectRenderer

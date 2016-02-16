@@ -9,24 +9,12 @@ $height = 600i
 $color = #f0f0f0
 End Component
 
-[diveengine2d.Entity]
-$GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
-$name = "Player"
+Template player
 
-Component spacewars.PlayerController
-$name = "player controller"
-$message = "hello from the script!"
-$speed = 1f
-End Component
+#[diveengine2d.Entity]
+#$GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
+#$name = "Enemy Spawner"
 
-Component RectRenderer
-$name = "render!"
-$width = 16i
-$height = 16i
-$color = #FA05BB
-End Component
-
-Component RigidBody
-$name = "poop"
-$friction = .9F
-End Component
+#Component spacewars.EnemySpawner
+#$spawnSpeed = 100i;
+#End Component
