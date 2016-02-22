@@ -1,4 +1,4 @@
-[diveengine2d.Entity]
+[Entity]
 $GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
 $name = "Player"
 

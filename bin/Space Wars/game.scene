@@ -1,4 +1,4 @@
-[diveengine2d.Entity]
+[Entity]
 $GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
 $name = "background"
 
@@ -6,7 +6,7 @@ Component RectRenderer
 $name = "render!"
 $width = 1024i
 $height = 600i
-$color = #f0f0f0
+$color = #F0F0F0
 End Component
 
 Template player
@@ -18,3 +18,9 @@ Template player
 #Component spacewars.EnemySpawner
 #$spawnSpeed = 100i;
 #End Component
+
+#scene manager. in charge of those enemy spawns yo
+[Entity]
+$name = "Scene Manager"
+Component SceneManager
+End Component
