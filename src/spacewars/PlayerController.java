@@ -2,13 +2,14 @@ package spacewars;
 
 import java.awt.Color;
 import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 import diveengine2d.DiveScript;
 import diveengine2d.Input;
 import diveengine2d.RectRenderer;
 import diveengine2d.RigidBody;
 
-public class PlayerController extends DiveScript {
+public class PlayerController extends DiveScript implements KeyListener {
 	public String message = null;
 	public float speed;
 
@@ -18,6 +19,7 @@ public class PlayerController extends DiveScript {
 	public void create() {
 		rigidBody = entity.getComponent(RigidBody.class);
 		renderer = entity.getComponent(RectRenderer.class);
+		Input.addKeyListener(this);
 	}
 	
 	public void update() {
@@ -29,6 +31,23 @@ public class PlayerController extends DiveScript {
 			rigidBody.dx += -1 * speed;
 		if(Input.getKeyDown(KeyEvent.VK_D))
 			rigidBody.dx += 1 * speed;
-		renderer.color = new Color((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
+		
+		//if()
+		
+	}
+
+	@Override
+	public void keyPressed(KeyEvent arg0) {
+		
+	}
+
+	@Override
+	public void keyReleased(KeyEvent arg0) {
+		
+	}
+
+	@Override
+	public void keyTyped(KeyEvent arg0) {
+		
 	}
 }
