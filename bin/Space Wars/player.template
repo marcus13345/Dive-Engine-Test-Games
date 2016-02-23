@@ -5,7 +5,7 @@ $name = "Player"
 Component spacewars.PlayerController
 $name = "player controller"
 $message = "hello from the script!"
-$speed = 1f
+$speed = .00000000001f
 End Component
 
 Component RectRenderer
