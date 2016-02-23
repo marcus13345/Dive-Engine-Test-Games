@@ -11,15 +11,6 @@ End Component
 
 Template player
 
-#[diveengine2d.Entity]
-#$GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
-#$name = "Enemy Spawner"
-
-#Component spacewars.EnemySpawner
-#$spawnSpeed = 100i;
-#End Component
-
-#scene manager. in charge of those enemy spawns yo
 [Entity]
 $name = "Scene Manager"
 Component SceneManager

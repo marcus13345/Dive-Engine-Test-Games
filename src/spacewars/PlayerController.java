@@ -8,6 +8,7 @@ import diveengine2d.DiveScript;
 import diveengine2d.Input;
 import diveengine2d.RectRenderer;
 import diveengine2d.RigidBody;
+import diveengine2d.Time;
 
 public class PlayerController extends DiveScript implements KeyListener {
 	public String message = null;

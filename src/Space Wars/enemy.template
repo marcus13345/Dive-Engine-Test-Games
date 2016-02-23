@@ -15,5 +15,9 @@ End Component
 
 Component RigidBody
 $name = "poop"
-$friction = .9F
+$friction = .1F
+End Component
+
+Component EnemyAI
+$radius = 200i
 End Component
