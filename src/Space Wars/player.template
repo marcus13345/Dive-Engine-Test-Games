@@ -1,21 +1,23 @@
 [Entity]
 $GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
 $name = "Player"
+$x = 504f
+$y = 50f
 
 Component spacewars.PlayerController
 $name = "player controller"
-$message = "hello from the script!"
-$speed = .00000000001f
+$speed = 1f
 End Component
 
 Component RectRenderer
 $name = "render!"
 $width = 16i
 $height = 16i
-$color = #FA05BB
+$color = #e91e63
 End Component
 
 Component RigidBody
 $name = "poop"
-$friction = .9F
+$dy = 5f
+$friction = .9f
 End Component

@@ -11,7 +11,23 @@ End Component
 
 Template player
 
+
+#THE GROUND
 [Entity]
-$name = "Scene Manager"
-Component SceneManager
+$GUID = "9e477f6d-778d-43e2-afe0-028a0a99cd74"
+$name = "Ground"
+$x = 0i
+$y = 550i
+
+Component RectRenderer
+$name = "render!"
+$width = 1024i
+$height = 50i
+$color = #E91E63
+End Component
+
+Component RigidBody
+$name = "poop"
+$friction = 1f
+
 End Component

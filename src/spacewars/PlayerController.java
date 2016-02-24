@@ -25,13 +25,13 @@ public class PlayerController extends DiveScript implements KeyListener {
 	
 	public void update() {
 		if(Input.getKeyDown(KeyEvent.VK_W))
-			rigidBody.dy += -1 * speed;
+			rigidBody.dy += -1 * speed * Time.deltaTime;
 		if(Input.getKeyDown(KeyEvent.VK_S))
-			rigidBody.dy += 1 * speed;
+			rigidBody.dy += 1 * speed * Time.deltaTime;
 		if(Input.getKeyDown(KeyEvent.VK_A))
-			rigidBody.dx += -1 * speed;
+			rigidBody.dx += -1 * speed * Time.deltaTime;
 		if(Input.getKeyDown(KeyEvent.VK_D))
-			rigidBody.dx += 1 * speed;
+			rigidBody.dx += 1 * speed * Time.deltaTime;
 		
 		//if()
 		
