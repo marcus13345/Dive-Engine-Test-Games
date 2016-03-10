@@ -11,9 +11,11 @@ public class SpaceWars {
 	}
 	
 	private static void test(String game) {
+
 		final String gamePath = "" + new File(SpaceWars.class.getProtectionDomain().getCodeSource()
 			.getLocation().getPath().replace("%20", " ") + game).getPath();
 		DebugSettings.debugLevel = 1;
 		Engine engine = new Engine(gamePath);
+
 	}
 }
