@@ -10,3 +10,19 @@ $width = 1024i
 $height = 600i
 $color = #F0F0F0
 End Component
+
+[Entity]
+$name = "Menu Manager"
+
+#this is the object that the buttons will use to take in the events.
+Component spacewars.MenuManager
+End Component
+
+Component ui.Button
+$eventClass = "spacewars.MenuManager"
+$eventName = "playClick"
+$name = "play button"
+$text = "Play"
+$x = 900i;
+$y = 500i;
+End Component
